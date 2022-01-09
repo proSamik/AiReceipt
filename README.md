@@ -4,7 +4,7 @@ Receipts using Machine Learning
 
 <b> Problem Statement: </b>
 
-Over a period of time, we are using traditional bills and receipts either handwritten or printed and it results into use a lots of paper, raw material and man power. This is a serious concern as yearly
+Over a period of time, we are using traditional bills and receipts either handwritten or printed and it results into use a lots of paper, raw material and man power. This is a serious concern because more than 3 Million and 34 Billion water is used to make paper receipts in the world and as you know paper receipts are outdated and hard to track.
 Technology plays a vital role in day-to-day life activities which in turn made great changes in many work fields and out of them Mobile Application is one of the major developments. Mobile Application can be used effectively for this job as they are widely used and are known for easy access.
 
 <b> Proposed Solution : </b>
