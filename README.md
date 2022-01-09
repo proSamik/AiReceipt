@@ -4,7 +4,7 @@ Receipts using Machine Learning
 
 <b> Problem Statement: </b>
 
-Over a great period, many issues have been faced by our students traveling by college busses. One of the challenges they face every day is to know the location of the bus.
+Over a period of time, we are using traditional bills and receipts either handwritten or printed and it results into use a lots of paper, raw material and man power. This is a serious concern as yearly
 Technology plays a vital role in day-to-day life activities which in turn made great changes in many work fields and out of them Mobile Application is one of the major developments. Mobile Application can be used effectively for this job as they are widely used and are known for easy access.
 
 <b> Proposed Solution : </b>
