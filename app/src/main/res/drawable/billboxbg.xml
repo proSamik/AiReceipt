@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:aapt="http://schemas.android.com/aapt"
+        android:width="812dp"
+        android:height="226dp"
+        android:viewportWidth="812"
+        android:viewportHeight="226"
+        >
+
+        <group>
+
+            <clip-path
+                android:pathData="M66 6H746C779.137 6 806 32.8629 806 66V160C806 193.137 779.137 220 746 220H66C32.8629 220 6 193.137 6 160V66C6 32.8629 32.8629 6 66 6Z"
+                />
+
+            <group
+                android:translateX="-0.417"
+                android:translateY="-6.67"
+                android:pivotX="406"
+                android:pivotY="113"
+                android:scaleX="2.536"
+                android:scaleY="31.136"
+                android:rotation="-28.623"
+                >
+
+                <path
+                    android:pathData="M6 6V220H806V6"
+                    >
+
+                    <aapt:attr name="android:fillColor">
+
+                        <gradient
+                            android:type="linear"
+                            android:startX="206"
+                            android:startY="113"
+                            android:endX="606"
+                            android:endY="113"
+                            >
+
+                            <item
+                                android:color="#CBCDF8"
+                                android:offset="0"
+                                />
+
+                            <item
+                                android:color="#ADAEC5"
+                                android:offset="0"
+                                />
+
+                            <item
+                                android:color="#C0C2F6"
+                                android:offset="0.096"
+                                />
+
+                            <item
+                                android:color="#3F45FB"
+                                android:offset="1"
+                                />
+
+                        </gradient>
+
+                    </aapt:attr>
+
+                </path>
+
+            </group>
+
+        </group>
+
+        <group>
+
+            <clip-path
+                android:pathData="M0 0V226H812V0M66 6H746C779.137 6 806 32.8629 806 66V160C806 193.137 779.137 220 746 220H66C32.8629 220 6 193.137 6 160V66C6 32.8629 32.8629 6 66 6Z"
+                />
+
+        </group>
+
+    </vector>

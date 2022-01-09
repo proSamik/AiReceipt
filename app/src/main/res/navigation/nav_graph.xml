@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/ledger">
+
+    <fragment
+        android:id="@+id/dashboard"
+        android:name="com.example.aireceipt.Dashboard"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_dashboard_to_inventory"
+            app:destination="@id/inventory" />
+        <action
+            android:id="@+id/action_dashboard_to_ledger"
+            app:destination="@id/ledger" />
+    </fragment>
+    <fragment
+        android:id="@+id/inventory"
+        android:name="com.example.aireceipt.Inventory"
+        android:label="fragment_inventory"
+        tools:layout="@layout/fragment_inventory" >
+        <action
+            android:id="@+id/action_inventory_to_addItem"
+            app:destination="@id/addItem" />
+        <action
+            android:id="@+id/action_inventory_to_editItem"
+            app:destination="@id/editItem" />
+    </fragment>
+    <fragment
+        android:id="@+id/ledger"
+        android:name="com.example.aireceipt.Ledger"
+        android:label="fragment_ledger"
+        tools:layout="@layout/fragment_ledger" >
+        <action
+            android:id="@+id/action_ledger_to_prev_bill"
+            app:destination="@id/prev_bill" />
+        <action
+            android:id="@+id/action_ledger_to_inventory"
+            app:destination="@id/inventory" />
+    </fragment>
+    <dialog
+        android:id="@+id/addItem"
+        android:name="com.example.aireceipt.AddItem"
+        android:label="fragment_add_item"
+        tools:layout="@layout/fragment_add_item" >
+        <action
+            android:id="@+id/action_addItem_to_inventory"
+            app:destination="@id/inventory" />
+    </dialog>
+    <dialog
+        android:id="@+id/editItem"
+        android:name="com.example.aireceipt.EditItem"
+        android:label="fragment_edit_item"
+        tools:layout="@layout/fragment_edit_item" >
+        <action
+            android:id="@+id/action_editItem_to_inventory"
+            app:destination="@id/inventory" />
+        <argument
+            android:name="itemId"
+            app:argType="integer" />
+    </dialog>
+    <dialog
+        android:id="@+id/prev_bill"
+        android:name="com.example.aireceipt.prev_bill"
+        android:label="fragment_prev_bill"
+        tools:layout="@layout/fragment_prev_bill" >
+        <argument android:name="id"
+            app:argType="integer" />
+    </dialog>
+</navigation>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_bill"
+    app:startDestination="@id/getBillNo">
+    <dialog
+        android:id="@+id/enterManually"
+        android:name="com.example.aireceipt.EnterManually"
+        android:label="fragment_enter_manually"
+        tools:layout="@layout/fragment_enter_manually" >
+        <argument
+            android:name="itemid"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_enterManually_to_billCheckout"
+            app:destination="@id/billCheckout" />
+        <argument
+            android:name="itemname"
+            app:argType="string" />
+    </dialog>
+    <fragment
+        android:id="@+id/billCheckout"
+        android:name="com.example.aireceipt.BillCheckout"
+        android:label="fragment_bill_checkout"
+        tools:layout="@layout/fragment_bill_checkout" >
+        <action
+            android:id="@+id/action_billCheckout_to_enterManually"
+            app:destination="@id/enterManually" />
+        <argument
+            android:name="billno"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_billCheckout_to_editBillItem"
+            app:destination="@id/editBillItem" />
+    </fragment>
+    <fragment
+        android:id="@+id/getBillNo"
+        android:name="com.example.aireceipt.GetBillNo"
+        android:label="fragment_get_bill_no"
+        tools:layout="@layout/fragment_get_bill_no" >
+        <action
+            android:id="@+id/action_getBillNo_to_billCheckout"
+            app:destination="@id/billCheckout" />
+    </fragment>
+    <dialog
+        android:id="@+id/editBillItem"
+        android:name="com.example.aireceipt.EditBillItem"
+        android:label="fragment_edit_bill_item"
+        tools:layout="@layout/fragment_edit_bill_item" >
+        <argument
+            android:name="itemId"
+            app:argType="string" />
+        <argument
+            android:name="billno"
+            app:argType="string" />
+    </dialog>
+</navigation>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/billboxbg.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/billrecbg.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/home_page_3.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/mask_group.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/mask_group_new.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/oxyrsvg.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/transparent.xml" value="0.209375" />
+        <entry key="app/src/main/res/layout/activity_bill.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_scan.xml" value="0.19332985930171964" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/all_bills_list.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/billno_list.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/fragment_add_item.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_bill_checkout.xml" value="0.4395734597156398" />
+        <entry key="app/src/main/res/layout/fragment_blank1.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_edit_bill_item.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/fragment_edit_item.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/fragment_enter_manually.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_get_bill_no.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/fragment_inventory.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_ledger.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_prev_bill.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/fragment_scan_page.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/fragment_update_inventory.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/inventory_list.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
