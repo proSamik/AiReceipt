@@ -4,14 +4,21 @@ Receipts using Machine Learning
 
 <b> Problem Statement: </b>
 
-Over a period of time, we are using traditional bills and receipts either handwritten or printed and it results into use a lots of paper, raw material and man power. This is a serious concern because more than 3 Million and 34 Billion water is used to make paper receipts in the world and as you know paper receipts are outdated and hard to track.
+Over a period of time, we are using traditional bills and receipts either handwritten or printed and it results into use a lots of paper, raw material and man power. This is a serious concern because more than 3 Million and 34 Billion water is used to make paper receipts in the world and as you know paper receipts are outdated and hard to track. This is a very big problem for the upcoming generation as we should switch to sustainable development and manage our resources very well.
 Technology plays a vital role in day-to-day life activities which in turn made great changes in many work fields and out of them Mobile Application is one of the major developments. Mobile Application can be used effectively for this job as they are widely used and are known for easy access.
 
 <b> Proposed Solution : </b>
 
-This project proposes a “Bus Tracking System” to keep track of the college bus and provides all the information about GNITS Bus Services. Its features include location of busses and prediction of bus delays. It accepts student data allowing them to register to the application. This application uses GPS tracking techniques by acquiring the geo-location from the driver's mobile device and mapping it to the database. Google API’s are used for accuracy in finding the location of the busses. Currently the app works for GNITS institute only. The project's scope is to extend it for other institutions to transport services in future in collaboration.
+This project proposes a “AI Receipt” to make bill in the mobile either manually or by recognising some text by using ML Kit provided by Firebase and it will also keep track of the receipt made by the shopkeeper and it can be shared in the form of image to the customer. It can also be used in malls as this will reduce the manpower and usage of numerours computers which scan(using barcode) and make bills.
 
-<img width="559" alt="sampleimages" src="https://user-images.githubusercontent.com/18289261/142846646-a6858641-ad88-43aa-b8bb-b690fd7126f1.png">
+This project is very beneficial for small business owners as they can make bill fast and track it easily. The features of this application is that the application stores the details of inventory, it recognises the text from the grocery item packet and autofill the bill maker tab, so it reduces the time. If some item is not present in the inventory or if the item is not recognized by ML kit, then the user can make bill manually also. The bill made can be shared with the customer, so it will serve as an e-bill and the bill will also be stored in the application itself for the shopkeeper to track the bills and manage the inventory properly. Currently it is in the testing with the develper as more imporovements and bugs need to be solved and prepare it for production.
+
+<div width="559"> 
+
+![0](https://user-images.githubusercontent.com/73891260/148679514-be945927-7e68-461c-b07b-520dd6add795.jpeg)
+![1](https://user-images.githubusercontent.com/73891260/148679528-a9820d50-2b76-465c-8c71-a456a51f4359.jpeg) ![2](https://user-images.githubusercontent.com/73891260/148679533-5d3b42d4-77cc-44ff-b2d0-028fa176b538.jpeg) ![3](https://user-images.githubusercontent.com/73891260/148679540-c553495e-1d64-44b7-85d8-e2c9eb394ead.jpeg) ![4](https://user-images.githubusercontent.com/73891260/148679554-f9c0cd25-a111-4aaa-810f-61154e6a7c16.jpeg) ![5](https://user-images.githubusercontent.com/73891260/148679544-a2162654-bb30-4aed-aaa8-4ff342ac867b.jpeg) ![6](https://user-images.githubusercontent.com/73891260/148679557-df559492-81bd-41c4-86e4-455d2ececf63.jpeg) ![7](https://user-images.githubusercontent.com/73891260/148679563-d7780812-f7a5-4c9d-8a3b-f535ffb7f5ac.jpeg) ![8](https://user-images.githubusercontent.com/73891260/148679567-071094e0-3b4c-48f9-ab8e-c711c853063c.jpeg)
+
+</div>
     	  	
 <b> Functionality & Concepts used : </b>
 
