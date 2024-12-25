@@ -13,7 +13,7 @@ This project proposes a “AI Receipt” to make bill in the mobile either manua
 
 This project is very beneficial for small business owners as they can make bill fast and track it easily. The features of this application is that the application stores the details of inventory, it recognises the text from the grocery item packet and autofill the bill maker tab, so it reduces the time. If some item is not present in the inventory or if the item is not recognized by ML kit, then the user can make bill manually also. The bill made can be shared with the customer, so it will serve as an e-bill and the bill will also be stored in the application itself for the shopkeeper to track the bills and manage the inventory properly. Currently it is in the testing with the develper as more imporovements and bugs need to be solved and prepare it for production.
 
-<div> 
+
     
 ### SPLASH SCREEN
     
@@ -51,9 +51,9 @@ This project is very beneficial for small business owners as they can make bill 
     
 ![8](https://user-images.githubusercontent.com/73891260/148679567-071094e0-3b4c-48f9-ab8e-c711c853063c.jpeg)
 
-</div>
+
     	  	
-<b> Functionality & Concepts used : </b>
+**Functionality & Concepts used : **
 
 - The App has a very simple and interactive interface which helps the user to create, share and track bills easily. Following are few android concepts used to achieve the functionalities in app : 
 
