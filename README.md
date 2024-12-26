@@ -53,7 +53,7 @@ This project is very beneficial for small business owners as they can make bill 
 
 
     	  	
-**Functionality & Concepts used : **
+**Functionality & Concepts used :**
 
 - The App has a very simple and interactive interface which helps the user to create, share and track bills easily. Following are few android concepts used to achieve the functionalities in app : 
 
